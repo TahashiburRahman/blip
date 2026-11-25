@@ -1,0 +1,5 @@
+include readme.md agent.md AGENTS.md LICENSE CHANGELOG.md CONTRIBUTING.md SECURITY.md
+include requirements.txt requirements-dev.txt pyproject.toml Blip.spec test_main.py
+recursive-include scripts *.py
+recursive-include docs *.md *.png
+recursive-include .github *.yml
